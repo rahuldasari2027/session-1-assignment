@@ -1,0 +1,18 @@
+| MySQL                              | PostgreSQL                                   |
+| ---------------------------------- | -------------------------------------------- |
+| Faster for simple web applications | Better for complex applications              |
+| Easier for beginners               | More advanced features                       |
+| Popular with PHP websites          | Popular for analytics and enterprise systems |
+
+
+Examples:
+
+MySQL:
+
+Facebook (historically)
+YouTube (parts of its infrastructure)
+
+PostgreSQL:
+
+Instagram
+Reddit
