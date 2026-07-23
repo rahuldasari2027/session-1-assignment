@@ -1,0 +1,32 @@
+# SQL Session 3
+
+## Task 1
+```sql
+SELECT *
+FROM restaurants
+WHERE rating >= 4.5;
+```
+
+## Task 2
+```sql
+SELECT *
+FROM movies
+WHERE release_year > 2020
+AND genre = 'Action';
+```
+
+## Task 3
+```sql
+SELECT product_id, product_name, price, category
+FROM products
+WHERE category <> 'Electronics'
+OR price < 500;
+```
+
+## Task 4
+```sql
+SELECT *
+FROM users
+WHERE NOT city = 'Ahmedabad'
+AND followers > 1000;
+```
