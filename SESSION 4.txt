@@ -1,0 +1,57 @@
+# SQL Session 4 - Wildcards & Pattern Matching
+
+## Objective
+Learn how to use LIKE, BETWEEN, and IN operators to filter records in SQL.
+
+---
+
+## Task 1: Find Restaurants Ending with 'Cafe'
+
+```sql
+SELECT *
+FROM restaurants
+WHERE restaurant_name LIKE '%Cafe';
+```
+
+---
+
+## Task 2: Products Between ₹500 and ₹1500
+
+```sql
+SELECT *
+FROM products
+WHERE price BETWEEN 500 AND 1500;
+```
+
+---
+
+## Task 3: Users from Ahmedabad, Surat, or Vadodara
+
+```sql
+SELECT *
+FROM users
+WHERE city IN ('Ahmedabad', 'Surat', 'Vadodara');
+```
+
+---
+
+## Task 4: Songs Where Artist Name Contains 'ar'
+
+```sql
+SELECT *
+FROM songs
+WHERE artist_name LIKE '%ar%';
+```
+
+---
+
+## Topics Covered
+
+- LIKE Operator
+- Wildcards (%)
+- BETWEEN Operator
+- IN Operator
+- Pattern Matching
+
+---
+
